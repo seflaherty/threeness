@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello!
 
-![Sean Flaherty's head shot]({{site.baseurl}}/images/me_pxpro.png#right "Sean E. Flaherty | seflaherty")
+![Sean Flaherty's head shot]({{site.baseurl}}/images/me_pxpro.png "Sean E. Flaherty")
 My name is Sean Flaherty and I am a full stack Business Intelligence developer from Boston, MA. 
 
 As a 20+ year IT professional, I have worked with clients improving and modernizing their data analytics. Most recently, I have successfully completed the [2019/20 Data Science Immersive](https://generalassemb.ly/education/data-science-immersive/boston) from General Assembly and have actively fed my curosity in DevOps. Get in touch by [email](TKTKTK).
