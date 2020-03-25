@@ -478,4 +478,6 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .highlight .gd { color: #ff5555; }
 
+img[src*='#right'] { float: right; }
+
 /*# sourceMappingURL=style.css.map */
