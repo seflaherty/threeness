@@ -1,7 +1,8 @@
 ---
-toc: false
+toc: true
 layout: post
 categories: [tweets]
-title: @hmason on receiving 24 requests for career advice
+title: Hilary Mason (@hmason) on receiving 24 requests for career advice
 ---
-> https://twitter.com/hmason/status/946045799334588416
+
+twitter: https://twitter.com/hmason/status/946045799334588416
