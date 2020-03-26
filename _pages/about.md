@@ -15,7 +15,7 @@ As a 20+ year IT professional, I have worked with many clients improving and mod
 Get in touch by [email](https://app.99inbound.com/f/61e3b206-ec85-4730-abd5-6590b9c9d238).
 
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+This website is powered by [fastpages](https://github.com/fastai/fastpages) [^1].
 
 
 
