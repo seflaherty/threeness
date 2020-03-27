@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Demonstration of common equations rendered by MathJAX and a Python implementation | Sean Flaherty’s Homepage</title>
+<title>Common mathematical equations and a suitable Python implementation of the same | Sean Flaherty’s Homepage</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Demonstration of common equations rendered by MathJAX and a Python implementation" />
+<meta property="og:title" content="Common mathematical equations and a suitable Python implementation of the same" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T Math Symbols for Programmers by Amit Chaudhary" />
-<meta property="og:description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T Math Symbols for Programmers by Amit Chaudhary" />
+<meta name="description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python." />
+<meta property="og:description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python." />
 <link rel="canonical" href="https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html" />
 <meta property="og:url" content="https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html" />
 <meta property="og:site_name" content="Sean Flaherty’s Homepage" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-26T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T Math Symbols for Programmers by Amit Chaudhary","@type":"BlogPosting","headline":"Demonstration of common equations rendered by MathJAX and a Python implementation","dateModified":"2020-03-26T00:00:00-05:00","datePublished":"2020-03-26T00:00:00-05:00","url":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html"},"@context":"https://schema.org"}</script>
+{"description":"This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python.","@type":"BlogPosting","headline":"Common mathematical equations and a suitable Python implementation of the same","dateModified":"2020-03-26T00:00:00-05:00","datePublished":"2020-03-26T00:00:00-05:00","url":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://seanflaherty.com/feed.xml" title="Sean Flaherty's Homepage" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -24,19 +24,19 @@
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-161671209-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
 
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Demonstration of common equations rendered by MathJAX and a Python implementation | Sean Flaherty’s Homepage</title>
+<title>Common mathematical equations and a suitable Python implementation of the same | Sean Flaherty’s Homepage</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Demonstration of common equations rendered by MathJAX and a Python implementation" />
+<meta property="og:title" content="Common mathematical equations and a suitable Python implementation of the same" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T Math Symbols for Programmers by Amit Chaudhary" />
-<meta property="og:description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T Math Symbols for Programmers by Amit Chaudhary" />
+<meta name="description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python." />
+<meta property="og:description" content="This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python." />
 <link rel="canonical" href="https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html" />
 <meta property="og:url" content="https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html" />
 <meta property="og:site_name" content="Sean Flaherty’s Homepage" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-26T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T Math Symbols for Programmers by Amit Chaudhary","@type":"BlogPosting","headline":"Demonstration of common equations rendered by MathJAX and a Python implementation","dateModified":"2020-03-26T00:00:00-05:00","datePublished":"2020-03-26T00:00:00-05:00","url":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html"},"@context":"https://schema.org"}</script>
+{"description":"This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python.","@type":"BlogPosting","headline":"Common mathematical equations and a suitable Python implementation of the same","dateModified":"2020-03-26T00:00:00-05:00","datePublished":"2020-03-26T00:00:00-05:00","url":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://seanflaherty.com/jupyter%20notebook/2020/03/26/math-symbols-for-devs.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -113,13 +113,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Demonstration of common equations rendered by MathJAX and a Python implementation</h1><p class="page-description">This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python. H/T [Math Symbols for Programmers by Amit Chaudhary](https://amitness.com/2019/08/math-for-programmers/)</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-26T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Common mathematical equations and a suitable Python implementation of the same</h1><p class="page-description">This notebook exercises the use of MathML markup, katex rendering, and examples of mathematical equations implemented in Python.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-26T00:00:00-05:00" itemprop="datePublished">
         Mar 26, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      5 min read
     
 </span></p>
 
@@ -174,6 +174,18 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+<div class="flash">
+    <svg class="octicon octicon-info octicon octicon-info octicon octicon-info" viewbox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg>
+    <strong>Note: </strong>H/T <a href="https://amitness.com/2019/08/math-for-programmers/">Math Symbols for Programmers by Amit Chaudhary</a> for the idea and code examples.
+</div>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -266,7 +278,7 @@ window.onload = wrap_img;
 <br><br></p>
 <p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mstyle displaystyle="true"> <munderover> <mrow> <mo> ∑<!--n-ary summation--> </mo> </mrow> <mrow> <mi> i </mi> <mo> = </mo> <mn> 1 </mn> </mrow> <mrow> <mi> N </mi> </mrow> </munderover> <mi> X </mi> <mo> i </mo> </mstyle> </math>
 <br><br>
-In Python, we will loop over the vector from the first item (index: 0) to the last item (index: count  of items less 1). The value of each item is then aggregated to the result total.</p>
+In Python, we will loop over the vector from the first item (index: 0) to the last item (index: count <em>n</em> of items less 1). The value of each item is then aggregated to the result total.</p>
 
 </div>
 </div>
@@ -365,7 +377,8 @@ Average of x: 42.0
 <p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mstyle displaystyle="true"> <munderover> <mrow> <mo> ∏<!--n-ary product--> </mo> </mrow> <mrow> <mi> i </mi> <mo> = </mo> <mn> 1 </mn> </mrow> <mrow> <mi> N </mi> </mrow> </munderover> <msub> <mrow> <mi> x </mi> </mrow> <mrow> <mi> i </mi> </mrow> </msub> </mstyle> </math>
 <br><br>
 In Python, loop over the vector from the first item to the last item and multiply the values.
-<strong>n.b. Never seen in the context of the 2019/20 Data Science Immersive</strong></p>
+<br><br>
+<em>n.b. Never seen in the context of the 2019/20 Data Science Immersive</em></p>
 
 </div>
 </div>
@@ -411,7 +424,7 @@ In Python, loop over the vector from the first item to the last item and multipl
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Pipe means different things depending on how its applied. To fence a number with a single pipe means to returns the absolute value of that number.
 <br><br></p>
-<p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mstyle displaystyle="true"> <mfenced open="∥" close="∥"> <mrow> <mi> x </mi> </mrow> </mfenced> </mstyle> </math>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mstyle displaystyle="true"> <mfenced open="|" close="|"> <mrow> <mi> x </mi> </mrow> </mfenced> </mstyle> </math>
 <br><br>
 Whereas, to fence a number with a double pipe is to calculate "the norm", sometimes called the magnitude, of the vector. 
 <br><br></p>
@@ -470,7 +483,7 @@ Norm of y: 12.84523257866513
 <br><br></p>
 <p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mstyle displaystyle="true"> <mn> 3 </mn> <mo> ∈<!--element of--> </mo> <mi> X </mi> </mstyle> </math>
 <br><br>
-In Python, this is done by <code>is in</code>.</p>
+In Python, this is done by the <code>in</code> comparison operator.</p>
 
 </div>
 </div>
@@ -569,7 +582,7 @@ In Python, this is the general form of a function.</p>
 <br><br></p>
 <p><math xmlns="http://www.w3.org/1998/Math/MathML"> <mstyle displaystyle="true"> <mi> f </mi> <mo> : </mo><mtext> ℝ<!--double-struck capital R--> </mtext> <mo> →<!--rightwards arrow--> </mo> <mtext> ℝ<!--double-struck capital R--> </mtext> </mstyle> </math>
 <br><br>
-In Python, this is equivalent to any value execept <a href="https://en.wikipedia.org/wiki/Complex_number">complex numbers</a>.</p>
+In Python, this is equivalent to any value except <a href="https://en.wikipedia.org/wiki/Complex_number">complex numbers</a>.</p>
 
 </div>
 </div>
